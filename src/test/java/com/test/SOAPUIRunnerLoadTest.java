@@ -96,7 +96,7 @@ public class SOAPUIRunnerLoadTest {
 													System.out.println("LoadTest [" + loadTest.getName() + "] progress: " + runner.getProgress() + ", " 
 															+ runner.getRunningThreadCount()); 
 												} 
-												//Thread.sleep(1000); 
+												Thread.sleep(1000); 
 											} 
 								 
 											System.out.println("LoadTest [" + loadTest.getName() + "] finished with status " + runner.getStatus().toString()); 
@@ -110,8 +110,8 @@ public class SOAPUIRunnerLoadTest {
 											System.out.println("Exporting log and statistics for LoadTest [" + loadTest.getName() + "]"); 
 											
 											 WsdlLoadTest wsdlloadTest = (WsdlLoadTest) runner.getLoadTest();
-                                             LoadTestStatistics statisticsModel = wsdlloadTest.getStatisticsModel();
-                                             statisticsModel.finish(); 
+											 LoadTestStatistics statisticsModel = wsdlloadTest.getStatisticsModel();
+											 statisticsModel.finish(); 
 											 exportStatistics(wsdlloadTest); 
 											 
 											
