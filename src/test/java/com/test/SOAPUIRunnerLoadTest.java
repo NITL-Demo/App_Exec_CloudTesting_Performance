@@ -42,7 +42,7 @@ public class SOAPUIRunnerLoadTest {
     public void test() {
 		
 		  try { 
-                    String projectFile = "D:\\codebase\\Automation-Codebase\\newone-selenium\\soapui-junit-master\\soapui-junit-master\\Pizzas-soapui-project.xml";
+                    String projectFile = "/var/lib/jenkins/workspace/App_Exec_LoadTest_TestNG/Pizzas-soapui-project.xml";
 					WsdlProject project = new WsdlProject(projectFile); 
 					for (TestSuite testSuite : project.getTestSuiteList()) { 
 
