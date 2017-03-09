@@ -190,7 +190,7 @@ public class SOAPUIRunnerLoadTest {
 											//loadTest.getStatisticsModel().finish(); 
 							                 
 											//Assert.assertEquals( LoadTestRunner.Status.FAILED , runner.getStatus()); 
-											Assert.assertEquals( LoadTestRunner.Status.FINISHED , runner.getStatus()); 
+											Assert.assertEquals( LoadTestRunner.Status.FAILED , runner.getStatus()); 
 											
 											System.out.println("Exporting log and statistics for LoadTest [" + loadTest.getName() + "]"); 
 											 
@@ -278,7 +278,7 @@ public class SOAPUIRunnerLoadTest {
 											//loadTest.getStatisticsModel().finish(); 
 							                 
 											//Assert.assertEquals( LoadTestRunner.Status.FAILED , runner.getStatus()); 
-											Assert.assertEquals( LoadTestRunner.Status.FINISHED , runner.getStatus()); 
+											Assert.assertEquals( LoadTestRunner.Status.FAILED , runner.getStatus()); 
 											
 											System.out.println("Exporting log and statistics for LoadTest [" + loadTest.getName() + "]"); 
 											 
