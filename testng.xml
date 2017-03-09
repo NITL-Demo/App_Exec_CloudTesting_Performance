@@ -2,17 +2,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 <suite name="Functional Test Suite" verbose="2">
 
-    <test name="TestNG Test Group" junit="true">
-         
-		<classes>
-            <class name="com.test.SOAPUIRunnerTest"/>
-        </classes> 
-		<!--
-        <packages>
-        <package name="com.test"/>
-        </packages>
-		-->
-    </test>
+   
 	
 	<test name="TestNG LoadTest Group" junit="true">
          
