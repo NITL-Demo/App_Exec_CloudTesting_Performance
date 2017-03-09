@@ -96,7 +96,7 @@ public class SOAPUIRunnerLoadTest {
 													System.out.println("LoadTest [" + loadTest.getName() + "] progress: " + runner.getProgress() + ", " 
 															+ runner.getRunningThreadCount()); 
 												} 
-												Thread.sleep(1000); 
+												//Thread.sleep(1000); 
 											} 
 								 
 											System.out.println("LoadTest [" + loadTest.getName() + "] finished with status " + runner.getStatus().toString()); 
